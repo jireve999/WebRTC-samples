@@ -1,0 +1,21 @@
+{
+  //预制套件
+  "presets": [
+    //处理转译需求
+    "@babel/preset-env",
+    //处理react
+    ["@babel/preset-react", {
+      "runtime": "automatic" // 启用新版 JSX 转换
+    }]
+  ],
+  //插件
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-class-properties",
+    // ["import", {
+    //   "libraryName": "antd",
+    //   "libraryDirectory": "es", // antd 5.x 新路径结构
+    //   "style": "css" // 启用 CSS-in-JS
+    // }]
+  ]
+}

@@ -21,8 +21,12 @@
 -  {title:'录制屏幕示例',path:'/recordScreen'},
 -  {title:'录制Canvas示例',path:'/recordCanvas'},
 ### 连接建立
-
+-  {title:'RTCPeerConnection示例',path:'/peerConnection'},
+-  {title:'Video发送至远端示例',path:'/peerConnectionVideo'},
+-  {title:'电子白板同步示例',path:'/peerConnectionCanvas'},
 ### 数据通道
+-  {title:'数据通道发送文本消息示例',path:'/dataChannel'},
+-  {title:'数据通道发送文件示例',path:'/dataChannelFile'},
 
 ## Getting Started
 ```bash

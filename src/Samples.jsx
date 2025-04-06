@@ -24,11 +24,13 @@ const data = [
   {title:'录制屏幕示例',path:'/recordScreen'},
   {title:'录制Canvas示例',path:'/recordCanvas'},
 
-  // {title:'RTCPeerConnection示例',path:'/peerConnection'},
-  // {title:'Video发送至远端示例',path:'/peerConnectionVideo'},
-  // {title:'电子白板同步示例',path:'/peerConnectionCanvas'},
-  // {title:'数据通道发送文本消息示例',path:'/dataChannel'},
-  // {title:'数据通道发送文件示例',path:'/dataChannelFile'},
+  {title:'RTCPeerConnection示例',path:'/peerConnection'},
+  {title:'Video发送至远端示例',path:'/peerConnectionVideo'},
+  {title:'电子白板同步示例',path:'/peerConnectionCanvas'},
+
+  {title:'数据通道发送文本消息示例',path:'/dataChannel'},
+  {title:'数据通道发送文件示例',path:'/dataChannelFile'},
+  
   // {title:'一对一视频通话示例',path:'/p2pClient'},
 ];
 //示例组件

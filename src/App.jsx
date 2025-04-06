@@ -17,12 +17,12 @@ import RecordAudio from "./RecordAudio";
 import RecordVideo from "./RecordVideo";
 import RecordScreen from "./RecordScreen";
 import RecordCanvas from "./RecordCanvas";
-// import PeerConnection from './PeerConnection';
-// import DataChannel from './DataChannel';
+import PeerConnection from './PeerConnection';
+import PeerConnectionVideo from "./PeerConnectionVideo";
+import PeerConnectionCanvas from "./PeerConnectionCanvas";
+import DataChannel from './DataChannel';
+import DataChannelFile from "./DataChannelFile";
 // import P2PClient from "./p2p/P2PClient";
-// import PeerConnectionVideo from "./PeerConnectionVideo";
-// import PeerConnectionCanvas from "./PeerConnectionCanvas";
-// import DataChannelFile from "./DataChannelFile";
 
 export default function App() {
   return (
@@ -41,16 +41,16 @@ export default function App() {
         <Route path="/mediaStreamAPI" element={<MediaStreamAPI/>} />
         <Route path="/captureVideo" element={<CaptureVideo/>} />
         <Route path="/captureCanvas" element={<CaptureCanvas/>} />
-        <Route exact path="/recordAudio" element={<RecordAudio/>} />
-        <Route exact path="/recordScreen" element={<RecordScreen/>} />
-        <Route exact path="/recordCanvas" element={<RecordCanvas/>} />
-        <Route exact path="/recordVideo" element={<RecordVideo/>} />
-        {/*<Route exact path="/peerConnection" element={<PeerConnection/>} />
-        <Route exact path="/peerConnectionVideo" element={<PeerConnectionVideo/>} />
-        <Route exact path="/peerConnectionCanvas" element={<PeerConnectionCanvas/>} />
-        <Route exact path="/dataChannel" element={<DataChannel/>} />
-        <Route exact path="/dataChannelFile" element={<DataChannelFile/>} />
-        <Route exact path="/p2pClient" element={<P2PClient/>} /> */}
+        <Route path="/recordAudio" element={<RecordAudio/>} />
+        <Route path="/recordScreen" element={<RecordScreen/>} />
+        <Route path="/recordCanvas" element={<RecordCanvas/>} />
+        <Route path="/recordVideo" element={<RecordVideo/>} />
+        <Route path="/peerConnection" element={<PeerConnection/>} />
+        <Route path="/peerConnectionVideo" element={<PeerConnectionVideo/>} />
+        <Route path="/peerConnectionCanvas" element={<PeerConnectionCanvas/>} />
+        <Route path="/dataChannel" element={<DataChannel/>} />
+        <Route path="/dataChannelFile" element={<DataChannelFile/>} />
+        {/*<Route exact path="/p2pClient" element={<P2PClient/>} /> */}
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
     </Router>

@@ -13,13 +13,13 @@ import MediaSettings from './media-settings/MediaSettings';
 import MediaStreamAPI from "./MediaStreamAPI";
 import CaptureVideo from "./CaptureVideo";
 import CaptureCanvas from "./CaptureCanvas";
+import RecordAudio from "./RecordAudio";
+import RecordVideo from "./RecordVideo";
+import RecordScreen from "./RecordScreen";
+import RecordCanvas from "./RecordCanvas";
 // import PeerConnection from './PeerConnection';
 // import DataChannel from './DataChannel';
-// import RecordAudio from "./RecordAudio";
-// import RecordVideo from "./RecordVideo";
 // import P2PClient from "./p2p/P2PClient";
-// import RecordScreen from "./RecordScreen";
-// import RecordCanvas from "./RecordCanvas";
 // import PeerConnectionVideo from "./PeerConnectionVideo";
 // import PeerConnectionCanvas from "./PeerConnectionCanvas";
 // import DataChannelFile from "./DataChannelFile";
@@ -41,11 +41,11 @@ export default function App() {
         <Route path="/mediaStreamAPI" element={<MediaStreamAPI/>} />
         <Route path="/captureVideo" element={<CaptureVideo/>} />
         <Route path="/captureCanvas" element={<CaptureCanvas/>} />
-        {/*<Route exact path="/recordAudio" element={<RecordAudio/>} />
+        <Route exact path="/recordAudio" element={<RecordAudio/>} />
         <Route exact path="/recordScreen" element={<RecordScreen/>} />
         <Route exact path="/recordCanvas" element={<RecordCanvas/>} />
         <Route exact path="/recordVideo" element={<RecordVideo/>} />
-        <Route exact path="/peerConnection" element={<PeerConnection/>} />
+        {/*<Route exact path="/peerConnection" element={<PeerConnection/>} />
         <Route exact path="/peerConnectionVideo" element={<PeerConnectionVideo/>} />
         <Route exact path="/peerConnectionCanvas" element={<PeerConnectionCanvas/>} />
         <Route exact path="/dataChannel" element={<DataChannel/>} />

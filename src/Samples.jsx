@@ -18,11 +18,11 @@ const data = [
   {title:'MediaStreamAPI测试示例',path:'/mediaStreamAPI'},
   {title:'捕获Video作为媒体流示例',path:'/captureVideo'},
   {title:'捕获Canvas作为媒体流示例',path:'/captureCanvas'},
-  
-  // {title:'录制音频示例',path:'/recordAudio'},
-  // {title:'录制视频示例',path:'/recordVideo'},
-  // {title:'录制屏幕示例',path:'/recordScreen'},
-  // {title:'录制Canvas示例',path:'/recordCanvas'},
+
+  {title:'录制音频示例',path:'/recordAudio'},
+  {title:'录制视频示例',path:'/recordVideo'},
+  {title:'录制屏幕示例',path:'/recordScreen'},
+  {title:'录制Canvas示例',path:'/recordCanvas'},
 
   // {title:'RTCPeerConnection示例',path:'/peerConnection'},
   // {title:'Video发送至远端示例',path:'/peerConnectionVideo'},

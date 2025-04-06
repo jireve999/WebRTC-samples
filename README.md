@@ -15,6 +15,14 @@
 -  {title:'MediaStreamAPI测试示例',path:'/mediaStreamAPI'},
 -  {title:'捕获Video作为媒体流示例',path:'/captureVideo'},
 -  {title:'捕获Canvas作为媒体流示例',path:'/captureCanvas'},
+### 媒体录制
+-  {title:'录制音频示例',path:'/recordAudio'},
+-  {title:'录制视频示例',path:'/recordVideo'},
+-  {title:'录制屏幕示例',path:'/recordScreen'},
+-  {title:'录制Canvas示例',path:'/recordCanvas'},
+### 连接建立
+
+### 数据通道
 
 ## Getting Started
 ```bash

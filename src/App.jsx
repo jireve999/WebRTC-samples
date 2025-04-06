@@ -6,13 +6,12 @@ import Microphone from './Microphone';
 import Canvas from "./Canvas";
 import ScreenSharing from './ScreenSharing';
 import VideoFilter from './VideoFilter';
+import Resolution from './Resolution';
+import AudioVolume from './volume/AudioVolume';
+import DeviceSelect from './DeviceSelect';
+import MediaSettings from './media-settings/MediaSettings';
 // import PeerConnection from './PeerConnection';
 // import DataChannel from './DataChannel';
-
-// import Resolution from './Resolution';
-// import AudioVolume from './volume/AudioVolume';
-// import DeviceSelect from './DeviceSelect';
-// import MediaSettings from './media-settings/MediaSettings';
 // import RecordAudio from "./RecordAudio";
 // import RecordVideo from "./RecordVideo";
 // import P2PClient from "./p2p/P2PClient";
@@ -35,11 +34,11 @@ export default function App() {
         <Route path="/canvas" element={<Canvas />} />
         <Route path="/screenSharing" element={<ScreenSharing />} />
         <Route path="/videoFilter" element={<VideoFilter />} />
-        {/*<Route exact path="/resolution" element={<Resolution/>} />
+        <Route path="/resolution" element={<Resolution/>} />
         <Route exact path="/audioVolume" element={<AudioVolume/>} />
         <Route exact path="/deviceSelect" element={<DeviceSelect/>} />
         <Route exact path="/mediaSettings" element={<MediaSettings/>} />
-        <Route exact path="/recordAudio" element={<RecordAudio/>} />
+        {/*<Route exact path="/recordAudio" element={<RecordAudio/>} />
         <Route exact path="/recordScreen" element={<RecordScreen/>} />
         <Route exact path="/recordCanvas" element={<RecordCanvas/>} />
         <Route exact path="/mediaStreamAPI" element={<MediaStreamAPI/>} />

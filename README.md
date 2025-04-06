@@ -11,7 +11,10 @@
 -   {title:'音量检测示例',path:'/audioVolume'},
 -   {title:'设备枚举示例',path:'/deviceSelect'},
 -   {title:'设置综合示例',path:'/mediaSettings'},
-
+### 媒体流与轨道
+-  {title:'MediaStreamAPI测试示例',path:'/mediaStreamAPI'},
+-  {title:'捕获Video作为媒体流示例',path:'/captureVideo'},
+-  {title:'捕获Canvas作为媒体流示例',path:'/captureCanvas'},
 
 ## Getting Started
 ```bash

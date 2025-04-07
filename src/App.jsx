@@ -22,7 +22,7 @@ import PeerConnectionVideo from "./PeerConnectionVideo";
 import PeerConnectionCanvas from "./PeerConnectionCanvas";
 import DataChannel from './DataChannel';
 import DataChannelFile from "./DataChannelFile";
-// import P2PClient from "./p2p/P2PClient";
+import P2PClient from "./p2p-old/P2PClient";
 
 export default function App() {
   return (
@@ -50,7 +50,7 @@ export default function App() {
         <Route path="/peerConnectionCanvas" element={<PeerConnectionCanvas/>} />
         <Route path="/dataChannel" element={<DataChannel/>} />
         <Route path="/dataChannelFile" element={<DataChannelFile/>} />
-        {/*<Route exact path="/p2pClient" element={<P2PClient/>} /> */}
+        <Route path="/p2pClient" element={<P2PClient/>} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
     </Router>

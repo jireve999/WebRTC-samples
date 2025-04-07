@@ -31,7 +31,7 @@ const data = [
   {title:'数据通道发送文本消息示例',path:'/dataChannel'},
   {title:'数据通道发送文件示例',path:'/dataChannelFile'},
   
-  // {title:'一对一视频通话示例',path:'/p2pClient'},
+  {title:'一对一视频通话示例',path:'/p2pClient'},
 ];
 //示例组件
 class Samples extends React.Component {
